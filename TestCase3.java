@@ -1,14 +1,10 @@
-package Amazon_Selenium;
+package sahil;
 
-import org.openqa.selenium.By;
-import org.testng.annotations.Test;
-
-public class TestCase3 extends LaunchQuit
+public class Testcase3
 {
-
-	@Test
-	public void login_to_fb()
+	void savedcard()
 	{
-		driver.get("http://www.facebook.com");
+		System.out.println("saved cards");
 	}
+
 }
